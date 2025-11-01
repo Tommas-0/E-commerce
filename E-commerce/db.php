@@ -1,9 +1,9 @@
 <?php
 // Paramètres de connexion à la base de données
 $servername = "localhost";
-$username = "armpxjsa_Tommas";
-$password = "7v}AVD;>%k";
-$dbname = "armpxjsa_Gainy";
+$username = "root"; // Utilisateur par défaut pour WAMP/MAMP
+$password = ""; // Mot de passe par défaut pour WAMP (vide) ou "root" pour MAMP
+$dbname = "gainy_local";
 
 // Création de la connexion
 $conn = new mysqli($servername, $username, $password, $dbname);
